@@ -16,7 +16,9 @@ Using HTML, CSS, and  JavaScript, I developed a simple to-do web application. Th
 I created a login authentication system using Flask, a Python web framework. Users could register, log in, and access a secure page. This project involved implementing user authentication, session management, and secure routing, showcasing my ability to develop user-centric web applications with backend functionality.
 
 Running the Programs:
+
 The programs have been tested on the Visual Studio Code IDE in Windows 11. 
 
-License
+License:
+
 All the programs in this repository are licensed under the MIT License. You can use them for educational purposes and modify them as per your requirements.
