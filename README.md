@@ -7,10 +7,10 @@ Structure of the Repository:
 I built an interactive calculator using HTML, CSS, and JavaScript. This project required implementing basic mathematical operations like addition, subtraction, multiplication, and division. The user interface included a display screen for input and results.
 
 2. Task Two: Tribute Page:
-I crafted a tribute page dedicated to Virat Kohli. The page highlighted his accomplishments and impact, using proper formatting, images, and fonts to enhance readability and visual appeal. This project allowed me to practice effective content presentation and styling techniques.
+I crafted a tribute page dedicated to Virat Kohli. The page highlighted his qualities and achievements, using proper formatting, images, and fonts to enhance readability and visual appeal. This project allowed me to practice effective content presentation and styling techniques.
 
 3. Task Three: A Basic To-Do Web App:
-Using HTML, CSS, and  JavaScript, I developed a simple to-do web application. This app enabled users to add, edit, and mark tasks as completed. The interface featured separate lists for pending and completed tasks, fostering efficient task management. 
+Using HTML, CSS, and  JavaScript, I developed a simple to-do web application. This app enabled users to add, edit, and mark tasks as completed.User can delete task at any stage if wrong task inputted by user by a mistake. The interface featured separate lists for pending and completed tasks, fostering efficient task management. 
 
 4. Task Four: Login Authentication:
 I created a login authentication system using Flask, a Python web framework. Users could register, log in, and access a secure page. This project involved implementing user authentication, session management, and secure routing, showcasing my ability to develop user-centric web applications with backend functionality.
