@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="Task3.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>To-Do List</h1>
+
+    <!-- Task Input Section -->
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Add a new task...">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <!-- Pending Tasks Section -->
+    <section class="tasks-section">
+      <h2>Pending Tasks</h2>
+      <ul id="pendingTasksList" class="task-list"></ul>
+    </section>
+
+    <!-- Completed Tasks Section -->
+    <section class="tasks-section">
+      <h2>Completed Tasks</h2>
+      <ul id="completedTasksList" class="task-list"></ul>
+    </section>
+  </div>
+
+  <script src="Task3.js"></script>
+</body>
+</html>

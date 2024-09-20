@@ -1,0 +1,113 @@
+/* Resetting margins and padding for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: aliceblue;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: aliceblue;
+    border-bottom: 4px solid 00aaff;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #007acc;
+  }
+  
+  section {
+    margin: 30px 0;
+  }
+  
+  .introduction, .qualities {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .introduction h2, .qualities h2, .quote h2 {
+    color: #007acc;
+    margin-bottom: 15px;
+  }
+
+  .images {
+    margin-top: 30px; /* Add some space between the section and the previous one */
+  }
+  
+  .image-heading {
+    font-size: 2rem; /* Increase the font size for the heading */
+    color: #007acc; /* Match the heading color with the rest of your theme */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .image-container {
+    display: flex; /* Flex container for the images */
+    justify-content:space-between ; /* Space between the large and small images */
+    
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Add space between images */
+  }
+  
+  .large-image {
+    width: 55%; /* Large image width */
+    height: 760px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid;
+  }
+  
+  .small-images {
+    display: flex;
+    flex-direction: column; /* Stack the small images vertically */
+    gap: 20px;
+
+  }
+  
+  .small-images .image {
+    width: 100%; /* Ensure small images take up full width in their column */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid;
+  }
+  
+
+  .quote {
+    padding: 20px;
+    background-color: aliceblue;
+    border-left: 5px solid #00aaff;
+    font-style: italic;
+  }
+  
+  blockquote {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-top: 2px solid #00aaff;
+  }
+  
+  footer p {
+    color: #007acc;
+  }
+  
